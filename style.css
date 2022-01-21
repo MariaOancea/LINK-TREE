@@ -1,0 +1,37 @@
+html{background: black url(background.jpg) center center no-repeat; background-size: cover;
+    color: rgb(95, 89, 89);}
+body{
+     display: grid;
+     place-items: center;
+     font-family: Inter, Helvetica, Arial, sans-serif;
+     font-size: 16px;
+     line-height: 1.5em;
+     
+     
+    }
+    @media ( min-width: 500px) { body { display: grid;} }
+    .Container{ 
+     width: 70%;
+     margin: 10vh auto;
+     background: rgba(67, 70, 70, 0.308); 
+     padding: 2rem;
+     border-radius: 9rem;
+     font-size: clamp(1rem, 2vw, 2rem);
+     line-height: 1,5em;
+     background-color: #ffffff10;
+     backdrop-filter: blur(12px);
+     -webkit-backdrop-filter: blur(0px);
+    }
+    @media ( min-width: 500px) { .Container { margin: 2vh; padding: 2rem; border-radius: 2rem;} }
+    header{ }
+        .Avatar{ display: block; float: left; width: 100px; height: auto; margin: 0 1cm 0 0; border-radius: 15%;}
+        .TitlulPaginii{ display: block; font-size: clamp(2rem, 6vw, 4rem); line-height:1em ;}
+    main{ }
+     .ListaLinkuri{ display: block; margin: 0; padding: 0;  }
+        .ListaItem{display: block; margin: 0; padding: 0; border-bottom: 1px solid #fff}
+             .ListaLink{  display: block; padding: 0.5em; color: white; text-decoration: none;}
+             .ListaLink:hover { background-color: whitesmoke; color: #b4b4b4 ;}
+                .ListaTitlu ,.ListaTitlu{ display: block; margin: 0; padding: 0; font-size: 1em; line-height: 1.5em;}
+                  .ListaText{  }
+     
+    
